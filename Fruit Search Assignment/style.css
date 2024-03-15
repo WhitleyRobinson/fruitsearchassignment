@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, blue, rgb(59, 248, 26));
+  /* TODO */
+}
+
+.search-container {
+  width: 200px;
+  background: linear-gradient(to right, white, yellow);
+  margin: 45vh auto 0;
+ /* TODO */
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  flex: 1;
+  height: 50px;
+  padding-left: 5px;
+  border-style: none;
+  border-bottom: 2px solid lime;
+  background: transparent;
+ /* TODO */
+}
+
+
+input:focus {
+  outline: 1px groove lightgrey;
+  order: 1px solid green;
+  border-radius: 2px;
+ /* TODO */
+}
+
+  /* TODO */
+
+.search-container .suggestions {
+  max-height: 250px;
+  overflow-y: hidden;
+   /* TODO */
+}
+
+  /* TODO */
+.suggestions ul {
+  flex: 1;
+  /* TODO */
+}
+
+.suggestions ul li {
+  list-style: none;
+  padding: 5px 5px;
+  cursor: pointer;
+  /* TODO */
+}
+
+.suggestions ul li:hover {
+  background: black;
+  /* TODO */
+}
+
+.suggestions {
+  max-height: 250px;
+  overflow-y: hidden;
+}
+
